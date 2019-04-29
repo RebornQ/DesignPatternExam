@@ -1,8 +1,9 @@
 package _2_Structural_Pattern.Exam4.work_1_DecoratorPattern;
 
-import works.work_1_DecoratorPattern.noodle.NormalNoodle;
-import works.work_1_DecoratorPattern.sidedish.Beef;
-import works.work_1_DecoratorPattern.sidedish.Pork;
+
+import _2_Structural_Pattern.Exam4.work_1_DecoratorPattern.noodle.NormalNoodle;
+import _2_Structural_Pattern.Exam4.work_1_DecoratorPattern.sidedish.Beef;
+import _2_Structural_Pattern.Exam4.work_1_DecoratorPattern.sidedish.Pork;
 
 import java.util.ArrayList;
 import java.util.List;
