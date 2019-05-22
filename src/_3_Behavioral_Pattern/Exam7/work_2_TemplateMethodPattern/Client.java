@@ -9,7 +9,6 @@ package _3_Behavioral_Pattern.Exam7.work_2_TemplateMethodPattern;
 public class Client {
     public static void main(String[] args) {
         AbstractJuicer juicer = new Honey();
-        juicer.setAddSeasoning(true);
         juicer.makeJuice();
     }
 }

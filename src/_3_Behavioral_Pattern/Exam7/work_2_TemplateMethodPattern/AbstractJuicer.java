@@ -8,10 +8,8 @@ package _3_Behavioral_Pattern.Exam7.work_2_TemplateMethodPattern;
  */
 public abstract class AbstractJuicer {
 
-    private boolean isAddSeasoning = false;
-
-    // 模板方法
-    public void makeJuice() {
+    // 模板方法，用final修饰，不允许子类覆盖。
+    public final void makeJuice() {
         cutFruit(); // 切水果
         putInJuicer();  // 放入榨汁机
 
@@ -45,11 +43,7 @@ public abstract class AbstractJuicer {
     }
 
     // 基本方法—钩子方法
-    private boolean isAddSeasoning() {
-        return isAddSeasoning;
-    }
-
-    public void setAddSeasoning(boolean addSeasoning) {
-        this.isAddSeasoning = addSeasoning;
+    public boolean isAddSeasoning() {
+        return false;
     }
 }

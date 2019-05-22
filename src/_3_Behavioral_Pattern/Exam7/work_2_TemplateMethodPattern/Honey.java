@@ -5,4 +5,9 @@ public class Honey extends AbstractJuicer {
     public void addSeasoning() {
         System.out.println("加入蜂蜜");
     }
+
+    @Override
+    public boolean isAddSeasoning() {
+        return false;
+    }
 }
